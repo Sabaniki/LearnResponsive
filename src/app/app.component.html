@@ -1,1 +1,26 @@
-<fa name="cog" animation="spin"></fa>
+<header class="card-header text-center display-4">自動板書ノート作成システム</header>
+<div class="container">
+  <div class="row">
+    <div class="card col-md-4 zoom-in" (click)="onClickRedirectNotePage()">
+      <img class="card-img-top zoom-in" src="../assets/ノートのアイコン素材.svg" alt="ノートのアイコン">
+      <div class="card-body">
+        <h2 class="card-title text-lg-center">ノートを閲覧</h2>
+        <p class="card-text">自動で作成されたノートを閲覧することができます</p>
+      </div>
+    </div>
+    <div class="card col-md-4 zoom-in" (click)="onClickRedirectAddPage()">
+      <img class="card-img-top" src="../assets/授業のフリー素材.svg" alt="授業のアイコン">
+      <div class="card-body">
+        <h2 class="card-title text-lg-center">授業を登録</h2>
+        <p class="card-text">受講している授業をマイリストに追加登録することができます</p>
+      </div>
+    </div>
+    <div class="card col-md-4 zoom-in" (click)="onClickRedirectUploadPage()">
+      <img class="card-img-top" src="../assets/クラウドのアップロードアイコン.svg" alt="アップロードのアイコン">
+      <div class="card-body">
+        <h2 class="card-title text-lg-center">映像をアップロード</h2>
+        <p class="card-text">授業を録画した映像をアップロードすることができます</p>
+      </div>
+    </div>
+  </div>
+</div>
